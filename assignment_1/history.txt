@@ -1,0 +1,129 @@
+  291  git init
+  292  git add README.md 
+  293  git commit -m'initial commit'
+  294  git status
+  295  git remote add origin git@github.com:rebeccaceppas/CTA200.git
+  296  git remote -v
+  297  git branch -M main
+  298  git branch
+  299  git push -u origin main
+  300  ls -la
+  301  vim README.md 
+  302  more README.md 
+  303  git add -u
+  304  git commit -m'testing push'
+  305  git push
+  306  pwd
+  307  touch LICENSE.txt
+  308  ls -la
+  309  vim LICENSE.txt
+  310  git add -u
+  311  git commit -m'added LICENSE.txt file'
+  312  git push
+  313  git status
+  314  git add LICENSE.txt 
+  315  git status
+  316  git commit -m'added LICENSE.txt file'
+  317  git push
+  318  pwd
+  319  mkdir assignment_1
+  320  ls
+  321  pwd
+  322  cd ..
+  323  ls
+  324  cd Materials/
+  325  ls
+  326  cd assignment1_2020
+  327  ls
+  328  cd ..
+  329  pwd
+  330  cd ..
+  331  pwd
+  332  cp /home/receppasdc/Course/Materials/assignment1_2020 /home/receppasdc/Course/CTA200/assignment_1/
+  333  pwd
+  334  cd CTA200/
+  335  ls
+  336  cd assignment_1/
+  337  ls
+  338  ls -la
+  339  cp -r  /home/receppasdc/Course/Materials/assignment1_2020 /home/receppasdc/Course/CTA200/assignment_1/
+  340  pwd
+  341  ls
+  342  pwd
+  343  cd ..
+  344  pwd
+  345  ls
+  346  rm -r assignment_1/
+  347  ls
+  348  cd assignment_1/
+  349  ls
+  350  rm -r assignment1_2020/
+  351  cp -r  /home/receppasdc/Course/Materials/assignment1_2020/main.c /home/receppasdc/Course/CTA200/assignment_1/
+  352  cp -r  /home/receppasdc/Course/Materials/assignment1_2020/average.c /home/receppasdc/Course/CTA200/assignment_1/
+  353  cp -r  /home/receppasdc/Course/Materials/assignment1_2020/average.h /home/receppasdc/Course/CTA200/assignment_1/
+  354  pwd
+  355  ls
+  356  ls -la
+  357  more main.c
+  358  more average.c
+  359  more average.h
+  360  touch Makefile
+  361  ls
+  362  vim Makefile
+  363  make
+  364  vim Makefile
+  365  make
+  366  vim Makefile 
+  367  make
+  368  vim Makefile
+  369  cd Courses
+  370  ls
+  371  cd ..
+  372  ls
+  373  pwd
+  374  cd ~
+  375  pwd
+  376  cd Courses
+  377  ls
+  378  cd Course
+  379  clear
+  380  cd CTA200/
+  381  ls
+  382  cd assignment_1/
+  383  ls
+  384  cleaer
+  385  clear
+  386  ls
+  387  vim average.h
+  388  vim main.c
+  389  vim average.c
+  390  touch Makefile
+  391  more main.o
+  392  vim main.o
+  393  rm main.o
+  394  ls
+  395  more average.c
+  396  more main.c
+  397  clear
+  398  ls
+  399  g++ average.c main.c
+  400  ls
+  401  ./a.out
+  402  more Makefile
+  403  vim Makefile
+  404  ls
+  405  make
+  406  ls
+  407  ./output
+  408  git add average.c average.h main.c Makefile
+  409  git status
+  410  git commit -m'working makefile and .c and .h files added'
+  411  git push
+  412  history
+  413  history |290
+  414  history 290| 412
+  415  histroy 290|412
+  416  history 290|412
+  417  history |tail
+  418  history 25
+  419  history 129 > history.txt
